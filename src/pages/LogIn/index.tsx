@@ -34,7 +34,7 @@ const navigate = useNavigate()
         signInWithEmailAndPassword(auth, data.email, data.password).then(()=>{
             console.log("Logado com sucesso")
             toast.success("Logado com sucesso!!!")
-            navigate("/", {replace: true})
+            navigate("/home", {replace: true})
         }).catch(()=>{
                 console.log("ERRO AO LOGAR NO SISTEMA")
         })

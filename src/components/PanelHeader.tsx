@@ -11,7 +11,7 @@ export default function DahsboardHeader(){
     }
 return(
     <div className="w-full items-center flex mb-4 h-10 bg-red-500 rounded-lg text-white gap-4 px-4">
-         <Link to="/">
+         <Link to="/home">
                 Página inicial
         </Link>
         <Link to="/dashboard">

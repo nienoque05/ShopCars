@@ -36,7 +36,7 @@ const {handleInfoUser} = useContext(AuthContext)
             name: data.name,
             email: data.email,
              uid: user.user.uid})
-        navigate("/", {replace: true})
+        navigate("/home", {replace: true})
         toast.success("Bem-vindo ao sistema")
        }).catch((error)=>{
         console.log("erro ao cadastrar este usuário", error)

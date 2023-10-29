@@ -9,7 +9,7 @@ const {signed, loadingAuth, user} = useContext(AuthContext)
     return(
         <div className="w-full flex items-center justify-center h-15 bg-white drop-shadow mb-4">
             <header className="flex w-full items-center justify-between max-w-7xl px-4 mx-auto">
-                <Link to="/">
+                <Link to="/home">
                 <img src={logoImg} alt="logo"/>
                 </Link>
                {!loadingAuth && signed && (
@@ -22,7 +22,7 @@ const {signed, loadingAuth, user} = useContext(AuthContext)
                  </Link>
                )}
                {!loadingAuth && !signed && (
-                 <Link to="/login">
+                 <Link to="/">
                  <FiLogIn size={24} color="#000"/>
                  </Link>
                )}
