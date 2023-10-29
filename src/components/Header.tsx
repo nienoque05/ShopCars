@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import  { useContext } from "react";
 import logoImg from '../assets/logo.svg'
 import { Link } from "react-router-dom";
 import {FiUser, FiLogIn} from 'react-icons/fi'

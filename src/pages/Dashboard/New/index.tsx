@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useContext, useState } from "react";
+import  { ChangeEvent, useContext, useState } from "react";
 import Container from "../../../components/Container";
 import DahsboardHeader from "../../../components/PanelHeader";
 import { FiTrash, FiUpload } from "react-icons/fi";
